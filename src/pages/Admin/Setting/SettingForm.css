@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.theme-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.theme-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.theme-card.selected {
+  background-color: white;
+}
+
+.theme-image {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  margin-top: 10px;
+}
+
+.invoice-container {
+  margin-top: 20px;
+}
+
+.invoice-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.invoice-image {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  margin-top: 10px;
+}
+
+.theme-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.theme-option {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.theme-option img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.theme-option h3 {
+  margin: 5px 0;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+  background-color: #3273dc; /* Bulma primary color */
+  color: #fff;
+  border-color: #3273dc;
+}
+
+/* Additional hover effect for selected buttons */
+.button.is-primary:hover {
+  background-color: #2754a4; /* Darker primary color */
+  border-color: #2754a4;
+}
+
+.button.is-info:hover {
+  background-color: #209cee; /* Darker info color */
+  border-color: #209cee;
+}

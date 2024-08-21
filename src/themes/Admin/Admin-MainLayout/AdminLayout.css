@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --third-color: #3030ff;
+  --four-color: #808080;
+}
+
+.smart-admin-navbar {
+  position: fixed;
+  height: 3rem;
+  width: 100%;
+  top: 0;
+  z-index: 50;
+}
+
+.smart-admin-middle {
+  margin-top: 3.5rem;
+  height: 100vh;
+  max-width: 100%;
+  padding: 10px;
+  /* margin-left: 220px; */
+  background-color: #ffffff;
+}
+
+.smart-admin-sidenav {
+  position: fixed;
+  margin-top: 50px;
+  width: 220px;
+  top: 0;
+}

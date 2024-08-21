@@ -1,0 +1,15 @@
+.vertical-line {
+    display: inline-block;
+    width: 2px;
+    height: 570px;
+    background-color: rgb(226, 214, 214);
+    writing-mode: vertical-rl;
+    margin-bottom: 105px;
+}
+.input-box {
+    width: 275px;
+  }
+  .label-box {
+    width: 150px; /* Adjust as necessary for alignment */
+  }
+  

@@ -1,0 +1,57 @@
+.image-slider {
+  position: relative;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+}
+
+button.prev-button {
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  border-radius: 50%;
+  height: 2.8rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button.prev-button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+button.next-button {
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  border-radius: 50%;
+  height: 2.8rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button.next-button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.fade {
+  animation: fade 0.5s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  opacity: 1;
+}

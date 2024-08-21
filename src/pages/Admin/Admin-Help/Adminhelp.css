@@ -1,0 +1,45 @@
+/* Adminhelp.css*/
+
+.adminaccortion .faq-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.adminaccortion .faq-item.active {
+  border-color: #3273dc;
+}
+
+.adminaccortion .faq-item .accortion {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
+
+.adminaccortion .faq-item.active .accortion {
+  color: #fff;
+}
+
+.adminaccortion .faq-item .acc-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background-color: #fff;
+  padding: 0 10px;
+}
+.adminaccortion {
+  border: solid 1px black;
+}
+
+.adminaccortion .faq-item.active .acc-answer {
+    max-height: 200px; 
+    padding: 10px;
+}
+
+.vl {
+  border-right: 2px solid #ccc; 
+  padding-right: 10px; 
+}

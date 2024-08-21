@@ -1,0 +1,44 @@
+.login-bg {
+  background: rgb(85, 76, 240);
+  background: linear-gradient(
+    180deg,
+    rgba(85, 76, 240, 1) 0%,
+    rgba(0, 255, 191, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-box {
+  width: 400px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.smart-login-input {
+  background-color: #ffffff !important;
+  border: rgb(65, 208, 255) 1px solid;
+  color: #000000;
+}
+
+.forgot-password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.forgot-password-box {
+  width: 400px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: #000000;
+}

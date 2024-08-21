@@ -1,0 +1,25 @@
+body {
+    background-color: #f4f4f4;
+  }
+  
+  .section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .title {
+    margin-bottom: 1.5rem;
+  }
+  
+  .sampleledgerbox {
+    margin-bottom: 1.5rem;
+  }
+  
+  .table {
+    margin-bottom: 1.5rem;
+  }
+  
+  #balance {
+    font-size: 1.2em;
+  }
+  

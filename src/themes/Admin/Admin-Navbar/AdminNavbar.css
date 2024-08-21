@@ -1,0 +1,107 @@
+/* Navbar Background */
+.smart-AdminNavbar {
+  background: linear-gradient(135deg, #edede7 0%, #77dd0a 100%) !important;   
+
+}
+
+/* Jayam Text Styling */
+.jayam {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(16, 5, 5);
+  margin-left: 10px;
+  
+}
+
+/* Navbar Item Styles */
+.navbar-end {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar Item Hover Color */
+.navbar-item {
+  color: white; /* Default color */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+
+  padding: 10px;
+}
+
+.navbar-item:hover {
+  color: #FFD700; /* Change to gold color on hover */
+}
+
+/* Dropdown and Navbar Link Styles */
+.navbar-item.has-dropdown .navbar-link {
+  cursor: pointer;
+}
+
+.navbar-item.has-dropdown:hover .navbar-dropdown {
+  display: block;
+}
+
+/* Dropdown Styles */
+.navbar-dropdown {
+  display: none;
+  position: absolute;
+  background-color: rgb(198, 76, 76);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+
+}
+
+.navbar-dropdown .navbar-item {
+  padding: 0.5rem 1rem;
+  color: black;
+  transition: background-color 0.3s ease;
+  background-color: #FFD700;
+
+}
+
+.navbar-dropdown .navbar-item:hover {
+  background-color: #f2f2f2;
+}
+
+/* Navbar Burger for Mobile */
+.navbar-burger {
+  display: none;
+}
+
+/* Logo Style */
+.smart-AdminNav-Logo {
+  border-radius: 8rem;
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .navbar-burger {
+    display: block;
+  }
+
+  .navbar-end {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-item {
+    width: 100%;
+  }
+
+  .navbar-dropdown {
+    position: static;
+    box-shadow: none;
+  }
+
+  /* Dropdown Handling on Small Screens */
+  .navbar-dropdown {
+    display: none;
+  }
+
+  .navbar-item.has-dropdown.is-active .navbar-dropdown {
+    display: block;
+  }
+}

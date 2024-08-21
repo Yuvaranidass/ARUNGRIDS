@@ -1,0 +1,6 @@
+.smart-help-image {
+  bottom: -4rem;
+  position: absolute;
+  z-index: -10;
+  left: 1rem;
+}

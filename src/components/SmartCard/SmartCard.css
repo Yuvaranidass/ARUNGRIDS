@@ -1,0 +1,50 @@
+.smart-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.smart-card img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease;
+}
+
+.smart-card-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.203);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.smart-card:hover {
+  transform: scale(1.05);
+}
+
+.smart-card:hover img {
+  filter: blur(4px);
+}
+
+.smart-card:hover .smart-card-details {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .smart-mobile-view {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

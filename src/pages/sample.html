@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Table</title>
+  <style>
+    .payment-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #f2dede;
+    }
+
+    .payment-table th,
+    .payment-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    .payment-table th {
+      background-color: #a94442;
+      color: white;
+    }
+
+    .payment-table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .payment-table tr:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Payment Table</h1>
+  <table class="payment-table">
+    <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Date</th>
+        <th>Particulars</th>
+        <th>Cash/NIFT/Cheque</th>
+        <th>Amount</th>
+        <th>Narration</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>1-Apr-19</td>
+        <td>Bus FC</td>
+        <td>Cash</td>
+        <td>50000</td>
+        <td>amount paid to the bus FC</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2-Apr-19</td>
+        <td>electrical item</td>
+        <td>Cash</td>
+        <td>2580</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>2-Apr-19</td>
+        <td>conveyance</td>
+        <td>cash</td>
+        <td>1500</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>2-Apr-19</td>
+        <td>diesel</td>
+        <td>nift</td>
+        <td>25000</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>3-Apr-19</td>
+        <td>Bank</td>
+        <td>Cash</td>
+        <td>99000</td>
+        <td>amount deposit to bank</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>6-Apr-19</td>
+        <td>building work</td>
+        <td>Cash</td>
+        <td>100000</td>
+        <td>paid to pbn construction</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

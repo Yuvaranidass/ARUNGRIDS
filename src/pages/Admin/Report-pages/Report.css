@@ -1,0 +1,64 @@
+.equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.equal-height-content {
+    flex-grow: 1;
+}
+.ctrl_f{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.border-bottom:hover {
+    border-bottom: 2px solid black; 
+}
+.table-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.subtitle .icon {
+    margin-right: 10px;
+}
+
+.select select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab {
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    border-bottom: 2px solid black;
+}
+
+.tab.is-active {
+    border-bottom: 2px solid blueviolet;
+    font-weight: bold;
+    color: blueviolet;
+}

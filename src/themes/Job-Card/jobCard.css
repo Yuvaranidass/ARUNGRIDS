@@ -1,0 +1,10 @@
+.smart-job-logo {
+  display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  .smart-jobcard-checkbox {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}

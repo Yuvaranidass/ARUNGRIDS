@@ -1,0 +1,100 @@
+.cardView {
+  height: 100px;
+  width: 100%;
+  background-color: brown;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  background-color: #b965e8;
+  border-radius: 10% 0% 0% 10%;
+}
+.border {
+  border: 2px solid rgb(241, 231, 231);
+  border-radius: 15px;
+}
+.icons1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  background-color: rgb(255, 72, 0);
+  border-radius: 10% 0% 0% 10%;
+}
+.icons2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  background-color: rgb(0, 179, 255);
+  border-radius: 10% 0% 0% 10%;
+}
+.icons3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  background-color: rgb(30, 255, 0);
+  border-radius: 10% 0% 0% 10%;
+}
+.subtitles{
+  font-weight: bold;
+  font-size: 25px;
+}
+.boxes {
+  background-color: "#f3f5f6";
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+}
+
+.dashboard-card .icon {
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+}
+
+.dashboard-card .details {
+  padding-left: 10px;
+}
+
+.dashboard-card .details h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.dashboard-card .details p {
+  margin: 5px 0 0;
+  font-size: 16px;
+  color: gray;
+}
+
+.smart-dash-scroll{
+  overflow-y: scroll;
+  height: 307px;
+}

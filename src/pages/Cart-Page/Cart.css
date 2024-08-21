@@ -1,0 +1,12 @@
+.smart-cart-image {
+  width: 15rem;
+  margin-left: 45px;
+}
+.smart-text {
+  text-align: center;
+}
+
+.smart-cart-image-desktop {
+    width: 20rem;
+    margin-left: 6rem;
+}

@@ -1,0 +1,23 @@
+.smart-home-hover a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.smart-home-hover a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: currentColor;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.smart-home-hover a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}

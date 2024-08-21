@@ -1,0 +1,135 @@
+.addimage {
+    border: 2px dashed #3298dc;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    color: #3298dc;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.adddata {
+    border: 2px dashed #3298dc;
+    text-align: center;
+    position: relative;
+    color: #3298dc;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.addimage input[type="file"] {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.addimage img {
+    display: none; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 100px; 
+}
+.addimage span {
+    display: block;
+    text-align: center;
+}
+.op {
+    width: 100%;
+    display: none;
+}
+.border-left {
+    border-left: 2px solid #dee0e0;
+}
+/* .container {
+    display: none; 
+} */
+.popup {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.popup-content {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+.popup.show {
+    display: flex;
+}
+.addproperty {
+    border: 2px dashed #3298dc;
+    text-align: center;
+    position: relative;
+    color: #3298dc;
+    width: 100%;
+    height: 50px; /* Container height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden; /* Ensure overflow content is clipped */
+    box-sizing: border-box; /* Include border in the container’s dimensions */
+    background-color: white; /* Ensure background is white */
+  }
+  
+  .addproperty.border-hidden {
+    border: none;
+  }
+  
+  #imagePreview {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Maintain aspect ratio */
+    background-color: transparent; /* Ensure background is transparent */
+  }  
+.popup-form {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-form h2 {
+  margin-top: 0;
+}  
+
+.columns-equal-height {
+    display: flex;
+  }
+  
+  .column-equal-height {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content is evenly spaced */
+  }
+  
+  .box-equal-height {
+    flex: 1; /* Ensures that the boxes take up equal space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
+  }
+  

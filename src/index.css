@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 9rem 0 0 0;
+}
+
+.smart-admin-container {
+  /* box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid;
+  border-image: linear-gradient(135deg, #14e136, #14e136) 1;*/
+} 
+
+.admin-table-layout thead tr th {
+  background: linear-gradient(135deg, #edede7 0%, #77dd0a 100%) !important;
+  color: #000;
+}
+
+input[type="search"] {
+  border: 0.08rem solid;
+  background: linear-gradient(135deg, #14e136, #14e136) 1;
+ 
+}
+

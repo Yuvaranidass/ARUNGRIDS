@@ -1,0 +1,306 @@
+.LoginText {
+  color: rgb(205, 204, 204);
+  font-weight: bold;
+  animation: slideIn 3s ease-in-out forwards;
+  font-size: 60px;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  margin-top: 20px;
+}
+.LoginTexts {
+  color: rgb(205, 204, 204);
+  font-size: 30px;
+  font-weight: 100;
+  animation: slideIn 3s ease-in-out forwards;
+}
+
+.imagestyle {
+  height: auto;
+  width: auto;
+  animation: slideIn 3s ease-in-out 1;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.imagestyle:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.background-image {
+  background-image: url("../../assets/images/login.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.SignUp {
+  opacity: 0;
+  transition: opacity 4s ease-in-out, transform 4s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.aligns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.alignitems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.ContactTexts {
+  color: rgb(235, 235, 235);
+  font-size: 14px;
+}
+.SignUp {
+  width: 400px;
+  background-color: rgba(243, 239, 239, 0.453);
+  margin-top: 40px;
+  margin-left: 100px;
+  border-radius: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  animation: slideIn 3s ease-in-out backwards;
+}
+
+.SignUpText {
+  color: rgb(212, 210, 210);
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  width: 100%;
+}
+
+.input-field input {
+  flex: 1;
+  border: none;
+  border-bottom: 2px solid rgb(212, 210, 210);
+  background: transparent;
+  color: black;
+  font-size: 18px;
+  padding: 10px 5px;
+  outline: none;
+}
+
+.input-field input::placeholder {
+  color: rgb(200, 200, 200);
+  font-size: 14px;
+}
+
+.input-field svg {
+  margin-right: 10px;
+  color: rgb(212, 210, 210);
+}
+
+.signup-button {
+  background-color: #262525;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttonAlign {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.signup-button:hover {
+  background-color: #555555;
+}
+
+.login-text {
+  color: rgb(12, 10, 10);
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+}
+
+.login {
+  color: rgb(46, 47, 48);
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  color: black;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgb(212, 210, 210);
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.social-login-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(106, 103, 103);
+
+  border-radius: 25px;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.back-arrow-container {
+  position: relative;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.social-button svg {
+  margin-right: 10px;
+}
+
+.social-button-google {
+  color: #db4437;
+  border-color: #db4437;
+}
+
+.social-button-facebook {
+  color: #3f6dd1;
+  border-color: #e7e8e9;
+  margin-left: 30px;
+}
+.social-button-twitter {
+  color: #7ac5e2;
+  border-color: #3b5998;
+  margin-left: 30px;
+}
+
+.social-button:hover {
+  background-color: #ccd9df;
+}
+
+.forgot-password {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+@media (max-width: 1068px) {
+  .background-image {
+    height: auto;
+    width: 100%;
+    background-position: top;
+  }
+
+  .LoginText {
+    font-size: 24px;
+    margin-left: 0;
+  }
+
+  .SignUp {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .SignUpText {
+    font-size: 24px;
+  }
+
+  .input-field input {
+    font-size: 16px;
+  }
+
+  .signup-button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .social-button {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .social-button svg {
+    margin-right: 5px;
+  }
+
+  .separator {
+    margin: 5px 0;
+  }
+
+  .forgot-password {
+    font-size: 12px;
+  }
+
+  .login-text {
+    font-size: 12px;
+  }
+}

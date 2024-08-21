@@ -1,0 +1,16 @@
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.image-grid{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.aligns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}

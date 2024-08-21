@@ -1,0 +1,14 @@
+.iconborderedit
+{
+    border: 1px solid #3273dc; 
+    border-radius: 4px; 
+    padding: 0.5rem; 
+    display: inline-block;
+}
+.iconborderdelete
+{
+    border: 1px solid #dc3232; 
+    border-radius: 4px; 
+    padding: 0.5rem; 
+    display: inline-block;
+}

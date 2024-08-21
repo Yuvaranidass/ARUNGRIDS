@@ -1,0 +1,47 @@
+@keyframes drop-from-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.data-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 50vh; */
+  text-align: center;
+  background-color: #ffffff;
+  animation: drop-from-bottom 1s ease-out;
+}
+
+.data-not-found h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #333;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.data-not-found p {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.home-link {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home-link:hover {
+  background-color: #555;
+}
